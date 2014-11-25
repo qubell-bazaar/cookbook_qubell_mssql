@@ -10,7 +10,7 @@ default[:cookbook_qubell_mssql][:schema][:password] = nil
 default[:cookbook_qubell_mssql][:schema][:host] = node[:cookbook_qubell_mssql][:db][:host] 
 default[:cookbook_qubell_mssql][:schema][:port] = node[:cookbook_qubell_mssql][:port]
 default[:cookbook_qubell_mssql][:schema][:privileges] = ["all"]
-default[:cookbook_qubell_mssql][:schema][:db_roles] = {:db_datareader => :add, :db_datawriter => :add, :db_accessadmin => :add, :db_backupoperator => :add, :db_ddladmin => :add, :db_denydatareader => :add, :db_denydatawriter => :add, :db_owner => :add, :db_securityadmin => :add }
+default[:cookbook_qubell_mssql][:schema][:db_roles] = {:db_datareader => :add, :db_datawriter => :add, :db_accessadmin => :add, :db_backupoperator => :add, :db_ddladmin => :add, :db_owner => :add, :db_securityadmin => :add }
 default[:cookbook_qubell_mssql][:schema][:action] = nil
 default[:cookbook_qubell_mssql][:schema][:dbname] = nil
 
